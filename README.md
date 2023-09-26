@@ -8,13 +8,16 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- Add their email and submit the form
-- See a success message with their email after successfully submitting the form
-- See form validation messages if:
-  - The field is left empty
-  - The email address is not formatted correctly
+- View an age in years, months, and days after submitting a valid date through the form
+Receive validation errors if:
+- Any field is empty when the form is submitted
+- The day number is not between 1-31
+- The month number is not between 1-12
+- The date is in the future
+- The date is invalid, e.g. 31/04/1991 (there are 30 days in April)
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
+- See the age numbers animate to their final number when the form is submitted
 
 ## My process
 
